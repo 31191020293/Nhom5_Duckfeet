@@ -1,0 +1,158 @@
+/* CHI TIET SAN PHAM */
+
+.product{
+    width: 100%;
+}
+.product-left{
+    width: 70%;
+    float: left;
+    padding: 10px;
+}
+.product-left-img-main{
+    width: 100%;
+}
+.product-left-img-main img {
+    width: 100%;
+    float: left;
+    padding-bottom: 5px;
+}
+.product-left-img-row{
+    width: 100%;
+    float: left;  
+}
+.product-left-img-row img {
+    width: 19.5%;
+    padding: 0 px;
+    margin: 0;
+}
+.product-right{
+    width:  30%;
+    padding-left: 20px;
+    float: right;
+
+}
+.product-right-product-name h1 {
+    font-family: var(--main-text-font);
+    margin: 12px;
+    font-size: 30px; 
+    font-weight: bold;
+    margin: 0;
+}
+.product-right-product-price {
+    color:orange;
+    font-size: 25px;
+}
+.product-right-product-color img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;  
+    border: 2px solid black;
+    cursor: pointer;
+}
+.product-right-product-color border:hover{
+    background-color: rgb(234, 152, 58);
+    color: azure;
+}
+.product-right-product-size span {
+    display: inline-block; 
+    padding: 6px 15px;
+    border: 1px solid #dddddd;
+    margin: 5px 10px 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+}
+.product-right-product-size span:hover{
+    background-color: rgb(234, 152, 58);
+    color: azure;
+
+}
+.product-right-product-quantity {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    
+}
+.product-right-product-quantity input {
+    width: 40px;
+    padding-left: 3px ;
+    align-items: center;
+    margin-left: 10px;
+}
+.product-right-product-button button {
+    width: 350px;
+    height: 40px;
+    display:block ;
+    margin: 20px 0 12px;
+}
+.product-right-product-button button:first-child{
+    background-color: rgb(82, 79, 79);
+    border: 1px solid black;  
+    color: azure;
+    cursor: pointer;
+}
+.product-right-product-button button:first-child:hover{
+    background-color: rgb(67, 99, 52);
+    border: 1px solid black;  
+    color: azure;
+}
+.product-right-product-button button:last-child{
+    background-color: rgb(234, 152, 58);
+    border: 1px solid black;  
+    color: azure;
+    cursor: pointer;
+}
+.product-right-product-button button:last-child:hover{
+    background-color: rgb(67, 99, 52);
+    border: 1px solid black;  
+    color: azure;
+}
+.product-right-product-icon-item{
+    display: flex;
+    margin: 5px;
+    font-size:12px;
+    
+}
+.product-right-product-icon-item i {
+    font-size:15px;
+    margin-right: 6px;
+    display: flex;
+    align-items: center; 
+}
+
+/* SẢN PHẨM TƯƠNG TỰ*/
+.sptt {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    float:left; 
+}
+
+.sptt h3{
+    text-align: center;
+}
+.sptt-sp1{
+    width: 25%;
+    float: left;
+    padding-left: 30px; 
+}
+.sptt-sp2{
+    width: 25%;
+    float: left;
+   
+}
+.sptt-sp3{
+    width: 25%;
+    float: left;
+}
+.sptt-sp4{
+    width: 25%;
+    float: left;
+}
+
+/* Mobile*/
+@media screen and (max-width: 480px) {
+    .product-left, .product-right,.sptt-sp1, .sptt-sp2, .sptt-sp3, .sptt-sp4 {
+      width: 100%;
+    }
+  }

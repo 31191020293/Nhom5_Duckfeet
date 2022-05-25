@@ -1,0 +1,31 @@
+.breadcrumbs .bread-inner {
+	z-index: 22;
+	text-align: left;	
+}
+.breadcrumbs .bread-list {
+	display: inline-block;
+}
+.breadcrumbs ul li{
+	display: inline-block;
+	position: relative;
+}
+.breadcrumbs ul li i {
+	margin: 0px 10px;
+	font-size: 9px;
+	font-weight: 600;
+	color: #333;
+}
+.breadcrumbs ul li a {
+	color: #333;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.breadcrumbs ul li.active a {
+	color: #333;
+	display: inline-block;
+}
+.breadcrumbs ul li a:hover{
+	color:#F7941D;
+}

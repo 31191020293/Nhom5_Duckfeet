@@ -1,0 +1,45 @@
+/*footer*/
+.footer{
+    margin-top: 15px;
+    background-color: rgba(156, 105, 70, 0.5);
+    height: 180px;
+}
+
+.footer p{
+    font-size: 14px;
+}
+.footer h4{
+    font-size: 17px;
+    font-weight: bold;
+}
+.footer-1{
+    width: 40%;
+    float:left;
+}
+.footer-2{
+    float: left;
+    width: 30%;
+}
+.footer-3{
+    float: right;
+    width: 30%;
+}
+.footer-3-icon i {
+    font-size:25px;
+    margin-right: 25px;
+    align-items: center;
+    padding-top: 5px;
+}
+.footer-1, .footer-2, .footer-3, .footer-4 {
+    margin-top: 15px;
+}
+p{font-size: 16px}
+
+@media screen and (max-width: 1023px) {
+    .footer-1, .footer-2, .footer-3, .footer-4 {
+        width: 100%;
+    }
+    .footer{
+        height: 510px;
+    }
+  }

@@ -1,0 +1,66 @@
+.loc{
+    float: left;
+}
+.filter ul li{
+    list-style: none;
+}
+.filter h4{
+    font-size: 16px;
+    font-weight: bold;
+}
+#fill{
+    border: solid 1px;
+}
+#trichloc{
+    padding-top: 15px;
+    height: fit-content;
+    background-color: rgba(158, 93, 49,0.5);
+}
+#product{
+    padding-top: 15px;
+}
+.product1{
+    float: left;
+}
+#select{
+    font-size: 15px;
+}
+.productdetail{
+    clear: both;
+}
+.detail{
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.card{
+    float: left;
+    border: none;
+}
+.card h4{
+    font-size: 16px;
+    font-weight: bold;
+}
+.card a{
+    font-size: 13px;
+}
+.card .btn{
+    background-color: rgba(180, 126, 91, 0.319);
+    color: black;
+    border: none;
+}
+p{
+    font-size: 14px;
+    margin:0;
+}
+
+@media screen and (max-width: 1023px) {
+    #trichloc{
+        display: block;
+    }
+    .product1{
+        display: none;
+    }
+}
+
+
